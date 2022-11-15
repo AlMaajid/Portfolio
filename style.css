@@ -27,6 +27,10 @@ html{
   font-size: 2rem;
 }
 
+.hamburger{
+  cursor: pointer;
+}
+
 .hamburger .line{
   display: block;
   width: 4rem;
