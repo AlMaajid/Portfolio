@@ -4,7 +4,7 @@ hamburger.addEventListener('click', function () {
   navbar.classList.toggle('active');
 })
 // let options = {
-//   strings: ['Front End Developer', 'UI Designer', 'Mern Stack Developer'],
+//   strings: ['I Build things for web', 'Front-End Deveveloper'],
 //   typeSpeed: 100,
 //   backSpeed: 100,
 //   loop: true

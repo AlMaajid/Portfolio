@@ -11,17 +11,22 @@ html{
 }
 
 body{
-  font-family: 'DM Sans', sans-serif;
   background-color: #F5F5F5;
 }
+
+/* Navbar Section */
 
 .header-section{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:  1rem;
+  font-family: 'DM Sans', sans-serif;
+  /* padding:  1rem; */
 }
 .logo{
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2rem;
   font-size: 700;
 
@@ -55,7 +60,184 @@ body{
   border-radius: 5rem;
 }
 
-@media only screen and (max-width:767px){
+/* Home Section */
+
+.home-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.name-container{
+  margin: 4rem 0;
+}
+
+.greeting,.myname,.typing {
+  font-family: 'Poppins';
+font-weight: 700;
+font-size: 2rem;
+line-height: 3rem;
+letter-spacing: -1px;
+color: #42446E;
+}
+
+.name{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.typing{
+  text-transform: capitalize;
+}
+
+.img-container{
+  margin: auto;
+  width: 50%;
+
+
+}
+
+.my-img{
+  border: .5rem solid #E70FAA;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.about-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title{
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 52px;
+  color: #42446E;
+}
+
+.about-content{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.2rem;
+  color: #666666;
+}
+
+.skill-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.skill-title{
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 52px;
+  color: #42446E;
+}
+
+.skill-content{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.2rem;
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.skill-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.fa-brands{
+  padding: 1rem;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  flex: 20%;
+}
+
+.fa-html5{
+  color:#FC490B;
+}
+.fa-css3-alt{
+  color:#2196F3;
+}
+.fa-bootstrap{
+  color:#5E3B7F;
+}
+.fa-sass{
+  color:#CD6699
+}
+.fa-js{
+  color:#FFDF00;
+}
+.fa-react{
+  color:#5ADAFD;
+}
+.fa-node{
+  color:#489241;
+}
+.fa-github{
+  color:#171516;
+}
+
+/* <section class="about-section">
+<div class="about-container">
+  <h2 class="about-title">about me</h2>
+  <p class="content">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+    quaerat cupiditate repudiandae. Facilis saepe, odio quod placeat
+    est, itaque dolorem nulla aspernatur sit vitae veniam quae provident
+    reiciendis eos in repudiandae, magnam quos nostrum distinctio. Et
+    accusamus similique quidem reprehenderit quaerat numquam magnam,
+    natus odit earum doloremque ab perferendis commodi iusto autem hic
+    neque ad facilis? Incidunt consectetur ullam, delectus natus laborum
+    eos, harum iusto autem ex, possimus nisi id esse. Veniam ipsam ab
+    harum nisi tenetur necessitatibus quam fugiat repellendus, rerum
+    iure? Explicabo, illum reprehenderit nostrum ipsa cum accusantium a
+    ullam, veritatis est culpa nobis odit maxime, possimus velit.
+  </p>
+</div>
+<!-- <div class="education-container">
+  <h2 class="education-title">education</h2>
+</div> -->
+</section> */
+
+
+
+/* @media only screen and (min-width:767px){
+  .home-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
   .hamburger{
     display: block;
     cursor: pointer;
@@ -72,7 +254,6 @@ body{
     left: 0;
     right: 0;
     width: 100vw;
-    /* background-color: #11101b; */
     transition: 0.2s;
 
   }
@@ -83,21 +264,20 @@ body{
 
   .navbar ul{
     display: block;
-    /* width: fit-content; */
     text-align: center;
     margin: 1rem 0;
     transition: .5s;
     overflow: hidden;;
-    opacity: 1;
-  }
-  /* .navbar .active {
     opacity: 0;
-  } */
+  }
+  .navbar .active {
+    opacity: 0;
+  }
   .navbar ul li{
     margin: 2rem 0;
   }
 
   .navbar ul li a{
-    color: white;
+    color: #F5F5F5;
   }
-}
+} */
