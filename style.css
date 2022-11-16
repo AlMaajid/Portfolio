@@ -72,15 +72,22 @@ body{
     width: 100vw;
     background-color: #11101b;
     transition: 0.2s;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
+  .navbar.active{
+    height: 0;
+  }
+
   .navbar ul{
     display: block;
     /* width: fit-content; */
     text-align: center;
     margin: 1rem 0;
     transition: .5s;
-    /* opacity: 0; */
+    opacity: 1;
+  }
+  .navbar .active ul{
+    opacity: 0;
   }
   .navbar ul li{
     margin: 2rem 0;
