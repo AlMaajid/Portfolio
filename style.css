@@ -159,6 +159,7 @@ color: #42446E;
 }
 
 .skill-content{
+  text-transform: capitalize;
   font-family: 'Poppins';
   font-weight: 400;
   font-size: 1.25rem;
@@ -180,6 +181,9 @@ color: #42446E;
   margin-bottom: 2rem;
   flex: 20%;
 }
+/* .fa-brands:hover{
+  font-size: 10rem;
+} */
 
 .fa-html5{
   color:#FC490B;
@@ -194,7 +198,7 @@ color: #42446E;
   color:#CD6699
 }
 .fa-js{
-  color:#FFDF00;
+  color:#F7E018;
 }
 .fa-react{
   color:#5ADAFD;
@@ -205,6 +209,142 @@ color: #42446E;
 .fa-github{
   color:#171516;
 }
+
+.project-section{
+  padding: 2rem;
+}
+.project-title{
+  text-align: left;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 52px;
+  color: #42446E;
+}
+
+.project-content{
+  text-align: left;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.2rem;
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.project-container{
+  margin: 0 auto;
+  background-color: black;
+  height: 90vh;
+  width: 70vw;
+  border-radius: 2rem;
+}
+
+.project-img{
+  padding: .5rem;
+  width: 100%;
+  height: 50%;
+  margin: 1rem 0;
+}
+
+.project-inner-title{
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.project-inner-content{
+  color: #666666;
+  padding: 0 2rem;
+  font-family: 'Poppins';
+  font-size: 1rem;
+font-weight: 500;
+  color: white;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.tech-stack{
+  font-family: 'Poppins';
+  /* line-height: .5rem; */
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0 2rem;
+  color: white;
+  text-align: justify;
+}
+
+.tech-title{
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #42446E;
+}
+
+/* <p class="tech-stack">
+<span class="tech-title">tech stack</span>HTML, JavaScript, SASS,
+React
+</p> */
+
+/* <section class="project-section">
+<h2 class="project-title">project</h2>
+<p class="project-content">things i've built so far</p>
+<div class="project-container">
+  <div class="project-image-container">
+    <img
+      src="https://media.tenor.com/Nx7Zj4vJBgAAAAAd/madison-beer.gif"
+      alt=""
+    />
+  </div>
+  <div class="project-inner-container">
+    <h3 class="project-inner-title">Project Title 01 project title</h3>
+    <p class="project-inner-content">
+      This is sample project description random things are here in
+      description This is sample project lorem ipsum generator for dummy
+      content
+    </p>
+    <p class="tech-stack">
+      <span class="tech-stack-title">tech stack:</span>HTML, JavaScript,
+      SASS, ReactJs
+    </p>
+    <p class="links">
+      <i class="fa-sharp fa-solid fa-link"></i>
+      <span class="live-preview">Live Preview</span>
+      <i class="fa-brands fa-github"></i>
+      <span class="github-link">View Code</span>
+    </p>
+  </div>
+</div>
+</section> */
+ /* @media only screen and (min-width:768px){
+  .home-section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 4rem ;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+  }
+  img-container{
+    margin: auto;
+    width: 50%;
+  }
+  
+  .my-img{
+    border: .5rem solid #E70FAA;
+    width: 50%;
+    border-radius: 100%;
+  }
+
+} */
+
 
 /* <section class="about-section">
 <div class="about-container">
