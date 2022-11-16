@@ -12,6 +12,7 @@ html{
 
 body{
   font-family: 'DM Sans', sans-serif;
+  background-color: #F5F5F5;
 }
 
 .header-section{
@@ -42,6 +43,7 @@ body{
 }
 
 .nav-link a{
+  line-height: 26px;
   border-radius: 5rem;
   padding: .7rem 1rem;
   color: #666666;
@@ -60,7 +62,7 @@ body{
   }
   .hamburger .line{
     width: 3rem;
-    height: .3rem;
+    height: .5rem;
     background-color: #666666;
     margin: .3rem 0;
   }
@@ -70,12 +72,13 @@ body{
     left: 0;
     right: 0;
     width: 100vw;
-    background-color: #11101b;
+    /* background-color: #11101b; */
     transition: 0.2s;
-    overflow: hidden;
+
   }
   .navbar.active{
-    height: 0;
+    height: 28rem;
+    background-color: #11101b;
   }
 
   .navbar ul{
@@ -84,11 +87,12 @@ body{
     text-align: center;
     margin: 1rem 0;
     transition: .5s;
+    overflow: hidden;;
     opacity: 1;
   }
-  .navbar .active ul{
+  /* .navbar .active {
     opacity: 0;
-  }
+  } */
   .navbar ul li{
     margin: 2rem 0;
   }
