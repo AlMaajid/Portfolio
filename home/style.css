@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+
+/* Home Section */
+
+.home-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+
+.intro--container{
+  margin-bottom: 4rem;
+}
+
+.greet-text,
+.name-text,
+.intro-text{
+  width: 70%;
+  font-size: 2rem;
+  margin: 0 auto;
+  text-transform: capitalize;
+  font-weight: 700;
+  color:#43446E;
+  line-height: 4rem;
+  font-family: 'Poppins';
+}
+
+.myname-text{
+  width: 70%;
+  margin: 0 auto;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 4rem;
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image--container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.myimage{
+  margin-left: 2rem;
+  border: .4rem solid #E70FAA;
+  width:80%;
+  border-radius: 50%;
+}
+
+@media screen and (min-width:500px) and (max-width:768px){
+  .home-section{
+    display: flex;
+    flex-direction: row;
+  }
+  .greet-text,
+.name-text,
+.intro-text{
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 4rem;
+  font-family: 'Poppins';
+}
+.myname-text{
+  width: 100%;
+  font-weight: 700;
+  line-height: 4rem;
+  font-family: 'Poppins';
+}
+.image--container{
+  width: 50%;
+  padding-left: 5rem;
+}
+
+}
