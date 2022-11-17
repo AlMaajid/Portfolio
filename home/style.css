@@ -66,10 +66,12 @@ body{
   border-radius: 50%;
 }
 
-@media screen and (min-width:500px) and (max-width:768px){
+@media screen and (min-width:500px) and (max-width:767px){
   .home-section{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
   .greet-text,
 .name-text,
@@ -78,17 +80,19 @@ body{
   font-size: 2rem;
   font-weight: 700;
   line-height: 4rem;
-  font-family: 'Poppins';
 }
 .myname-text{
   width: 100%;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 4rem;
-  font-family: 'Poppins';
 }
 .image--container{
   width: 50%;
-  padding-left: 5rem;
+  margin: 0;
+}
+.myimage{
+  width: 40%;
 }
 
 }
